@@ -14,7 +14,7 @@ font = cv2.FONT_HERSHEY_PLAIN
 while True:
     success, img = capture.read()
 
-    cv2.putText(img, ""MBS3523 Assignment 1C - Q4 Name: HUNG CHUN KIT PETER"", (40, 20), cv2.FONT_HERSHEY_PLAIN, 1,
+    cv2.putText(img, "MBS3523 Assignment 1C - Q4 Name: HUNG CHUN KIT PETER", (40, 20), cv2.FONT_HERSHEY_PLAIN, 1,
                 (221, 209, 234), 2)
 
     imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
